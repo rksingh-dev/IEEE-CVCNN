@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "18.x"
+    "node": "16.x"
+  },
+  "resolutions": {
+    "@achrinza/node-ipc": "9.2.5"
   },
   "scripts": {
     "server": "vue-cli-service serve",
